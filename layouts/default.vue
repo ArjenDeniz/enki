@@ -7,10 +7,3 @@
         <Footer/>
     </div>
 </template>
-<style lang="scss" scoped>
-    .layout{
-        font-family: Arial, sans-serif;
-        min-height: 100vh;
-        width:100%
-    }
-</style>
