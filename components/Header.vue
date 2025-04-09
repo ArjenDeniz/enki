@@ -1,11 +1,13 @@
 <template>
   <header class="header">
-    <h1>My Website</h1>
+    <NuxtLink to="/" class="logo-link">
+      <img src="/Logo-primary-onwhite.png" alt="Website Logo" class="logo">
+    </NuxtLink>
     <nav>
       <ul>
-        <li><NuxtLink to="/">Home</NuxtLink></li>
-        <li><NuxtLink to="/">About</NuxtLink></li>
-        <li><NuxtLink to="/">Contact</NuxtLink></li>
+        <li><NuxtLink to="/">About us</NuxtLink></li>
+        <li><NuxtLink to="/">Projects</NuxtLink></li>
+        <li><NuxtLink to="/">Works</NuxtLink></li>
       </ul>
     </nav>
   </header>
@@ -17,7 +19,14 @@
   justify-content: space-between;
   align-items: center;
   color: $text-color;
+  padding: 1rem 2rem;
   
+  .logo{
+    width: 150px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
   nav {
     ul {
       display: flex;
@@ -28,13 +37,10 @@
         padding:8px;
         a {
           text-decoration: none;
-          color: inherit;          
+          color: inherit;  
+          font-weight: 700;
           &:hover {
             color: $primary-color;
-          }
-          
-          &.router-link-active {
-            font-weight: bold;
           }
         }
       }
