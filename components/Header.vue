@@ -1,7 +1,7 @@
 <template>
-  <header class="header">
+  <header class="header row">
     <NuxtLink to="/" class="logo-link">
-      <img src="/Logo-primary-onwhite.png" alt="Website Logo" class="logo">
+      <img src="/Logo-primary-onwhite.png" alt="Website Logo" class="logo mb-2 mt-2 ml-2">
     </NuxtLink>
     <nav>
       <ul>
@@ -15,7 +15,6 @@
 
 <style lang="scss" scoped>
 .header {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   color: $white-color;
@@ -28,21 +27,19 @@
   .logo{
     width: 150px;
     height: auto;
-    padding: 0;
-    margin: 0;
   }
   nav {
     ul {
       display: flex;
       list-style: none;
       padding: 0rem;
-      
+      gap: 16px;
       li {
-        padding:8px;
         a {
           text-decoration: none;
           color: inherit;  
           font-weight: 700;
+          font-size: 32px;
           &:hover {
             color: $primary-color;
           }

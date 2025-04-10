@@ -1,13 +1,13 @@
 <template>
-    <section class="container">
-        <div class="poster">
+    <section class="container mt-3 mb-3 center limited">
+        <div class="poster center">
             <img src="/27_Usukff.webp" alt="ucan"/>
         </div>
         <div class="poster-text">
             <h3>Uçan Süpürge</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt ad numquam expedita laudantium quibusdam quia nobis, error placeat sapiente tenetur maxime quas similique dignissimos quidem recusandae veniam magnam ipsum.</p>
         </div>
-        <div class="poster">
+        <div class="poster center">
             <img src="/AYUFF24_Afis-581x814.png" alt="ucan"/>
         </div>
         <div class="poster-text">
@@ -18,13 +18,9 @@
 </template>
 <style lang="scss" scoped>
     .container{
-        width: 650px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-items: center;
-        justify-items: center;
-        gap: 30px 60px;
-        margin: 0 auto;
+        gap: 30px;
         img {
             width: 250px;
         }
@@ -32,6 +28,7 @@
             width: 100%;
             grid-template-columns: 1fr;
             gap: 20px;
+            align-items: center;
             
         }
     }
@@ -39,6 +36,7 @@
         width: 300px;
         padding: 7%;
         position: relative;
+        margin: 0 auto;
         background-color: $white-color;
         box-shadow: 0 3px 12px $text-color;
         filter: saturate(70%) contrast(85%);

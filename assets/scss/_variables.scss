@@ -1,7 +1,19 @@
+// brand colors
 $primary-color: #E63946;
 $secondary-color: #1D3557;
 $highlight-color: #FCBF49;
 $background-color: #A8DADC;
 $white-color: #F1FAEE;
 $text-color: #2B2D42;
+
+//nodes
 $linear-ease: linear(0, 0.068, 0.19 2.7%, 0.804 8.1%, 1.037, 1.199 13.2%, 1.245, 1.27 15.8%, 1.274, 1.272 17.4%, 1.249 19.1%, 0.996 28%, 0.949, 0.928 33.3%, 0.926, 0.933 36.8%, 1.001 45.6%, 1.013, 1.019 50.8%, 1.018 54.4%, 1 63.1%, 0.995 68%, 1.001 85%, 1);
+
+// Base unit for spacing utilities
+$base-unit: 8px;
+
+// Breakpoints
+$breakpoint-xs: 576px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;

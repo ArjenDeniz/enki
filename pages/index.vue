@@ -5,7 +5,7 @@
         <p>This is the homepage of my new Nuxt.js static website.</p>
       </section>
       <Canvas/>
-      <Projects class="limited"/>
+      <Projects/>
   </div>
 </template>
 
