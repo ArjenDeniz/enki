@@ -18,8 +18,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: $text-color;
-  padding: 1rem 2rem;
+  color: $white-color;
+  background-color: $secondary-color;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
   
   .logo{
     width: 150px;
