@@ -7,6 +7,13 @@
             <h3>Uçan Süpürge</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt ad numquam expedita laudantium quibusdam quia nobis, error placeat sapiente tenetur maxime quas similique dignissimos quidem recusandae veniam magnam ipsum.</p>
         </div>
+        <div class="poster">
+            <img src="/AYUFF24_Afis-581x814.png" alt="ucan"/>
+        </div>
+        <div class="poster-text">
+            <h3>Uçan Süpürge</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt ad numquam expedita laudantium quibusdam quia nobis, error placeat sapiente tenetur maxime quas similique dignissimos quidem recusandae veniam magnam ipsum.</p>
+        </div>
     </section>
 </template>
 <style lang="scss" scoped>
@@ -20,6 +27,12 @@
         margin: 0 auto;
         img {
             width: 250px;
+        }
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            
         }
     }
     .poster{
